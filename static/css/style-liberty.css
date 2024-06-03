@@ -12596,7 +12596,7 @@ p.white {
   content: "\f55b";
 }
 
-.fa-bible:before {
+.fa-bible:before {  
   content: "\f647";
 }
 
@@ -19080,7 +19080,8 @@ a.read:hover span.fas {
 
 /*-- banner --*/
 .w3l-banner {
-  background: url(../images/banner1.jpeg) no-repeat center;
+  background-size: auto;
+  background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
   z-index: 0;
